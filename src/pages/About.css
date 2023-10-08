@@ -1,0 +1,63 @@
+/* About.css */
+
+.about-container {
+    background-image: url("../../public/images/travel.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    color: rgb(242, 174, 174); /* Set text color to white or a color that contrasts well with your background */
+    text-align: center;
+    padding: 50px; /* Adjust padding as needed */
+  }
+  .about-header{
+     text-align: center;
+     padding: 0px 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5em;
+     margin-bottom: 10px;
+     margin-top: -30px;
+  }
+  
+
+
+  /* Your existing styles */
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Adjust the column widths as needed */
+    gap: 20px; 
+  }
+  
+  .text {
+    grid-column: 1;
+    font-family: League Spartan;
+  }
+ .text  p{
+    color: aliceblue;
+    font-size:1.1rem ;
+  }
+ .text h3{
+    color: antiquewhite;
+  }
+  /* Optionally, you can add this to center the content vertically */
+  .about-content {
+    align-items: center;
+  }
+  
+  @media (max-width: 600px) {
+    .about-container {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+   .text p{
+     font-size: 16px;
+     max-width: 100%;
+     overflow: hidden;
+   }
+    .about-content {
+      align-items: center; /* Center items horizontally on mobile */
+    }
+  }
+ 

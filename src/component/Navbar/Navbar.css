@@ -1,0 +1,81 @@
+/* src/components/Navbar.css */
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 5px  0;
+    position:sticky;
+    text-align: center;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .container {
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    margin-left:0.5rem;
+    margin-right: 80px; /* Adjust the margin between links as needed */
+    text-decoration: none;
+    color: #f4f2f2; /* Adjust the text color */
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .nav-links a:hover{
+    color: red;
+    font-size: 1.2rem;
+  }
+  
+  .signup-button {
+    padding: 8px 20px;
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid #fff ;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+  }
+.signup-button:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+}
+  
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+  .nav-links {
+    flex-direction: row; /* Switch back to row layout for larger screens */
+    justify-content: space-around; /* Space links evenly on larger screens */
+    width: 100%; /* Make sure links take full width on smaller screens */
+  }
+
+  .nav-links a {
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.vacation-card {
+    border: 1px solid #ddd;
+    margin: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 40%; /* Set the width to 40% */
+    display: block; /* Display cards inline */
+    box-sizing: border-box; /* Include padding and border in the width */
+    text-align: center;
+    margin-left: 31%;
+    
+  }
+  
+
+  .vacation-image {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .vacation-details {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .vacation-details h3 {
+    color: #333;
+  }
+  
+  .vacation-details p {
+    margin: 8px 0;
+  }
+  .vacation-details button{
+    background-color: red;
+  }
+  
